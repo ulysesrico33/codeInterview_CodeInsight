@@ -28,7 +28,6 @@ namespace Tests
         int resultTestC = 5;
         string inputTestD = "{{{},{},{{}}}}";
         int resultTestD = 16;
-
         string inputTestE = "{<a>,<a>,<a>,<a>}";
         int resultTestE = 1;
         string inputTestF = "{{<ab>},{<ab>},{<ab>},{<ab>}}";

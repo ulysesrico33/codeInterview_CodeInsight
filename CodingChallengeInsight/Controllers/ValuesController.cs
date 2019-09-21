@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CodingChallengeInsight.Business;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,9 +14,18 @@ namespace CodingChallengeInsight.Controllers
         {
             _challenge = challenge;
         }
+
+        [HttpGet]
+        public String Get()
+        {
+            return "Please enter /api/values/getScore/'your input' to play";
+
+        }
+
+
         // GET api/values
         [HttpGet("getScore/{input}")]
-        public String Get(String input)
+        public String GetScore(String input)
         {
  
             return "The Total score is "+_challenge.getScore(input).ToString();
