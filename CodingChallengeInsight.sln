@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallengeInsight", "CodingChallengeInsight\CodingChallengeInsight.csproj", "{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengingTest", "ChallengingTest\ChallengingTest.csproj", "{B3AD51F6-57E2-42F5-9F3D-409B0867E8F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AD51F6-57E2-42F5-9F3D-409B0867E8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AD51F6-57E2-42F5-9F3D-409B0867E8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AD51F6-57E2-42F5-9F3D-409B0867E8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AD51F6-57E2-42F5-9F3D-409B0867E8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

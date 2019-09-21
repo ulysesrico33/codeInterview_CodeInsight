@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChallengingTest/ChallengeTest.cs">
+    <Files>
+      <File FileName="CodingChallengeInsight/Business/Challenge.cs" Line="60" Column="1" />
+      <File FileName="ChallengingTest/ChallengeTest.cs" Line="16" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodingChallengeInsight" expanded="True">
+            <Node name="ChallengingTest" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ChallengeTest.cs" selected="True" />
+            </Node>
+            <Node name="CodingChallengeInsight" expanded="True">
+              <Node name="Business" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CodingChallengeInsight" expanded="True" selected="True">
+            <Node name="ChallengingTest" expanded="True">
+              <Node name="Tests" expanded="True">
+                <Node name="Tests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CodingChallengeInsight PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

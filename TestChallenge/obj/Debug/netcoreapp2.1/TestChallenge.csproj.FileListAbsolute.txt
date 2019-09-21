@@ -1,0 +1,15 @@
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.dll
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.pdb
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/nunit.engine.netstandard.dll
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/Mono.Cecil.dll
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/TestChallenge.deps.json
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/TestChallenge.runtimeconfig.json
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/TestChallenge.runtimeconfig.dev.json
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/TestChallenge.dll
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/bin/Debug/netcoreapp2.1/TestChallenge.pdb
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/obj/Debug/netcoreapp2.1/TestChallenge.csprojAssemblyReference.cache
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/obj/Debug/netcoreapp2.1/TestChallenge.csproj.CoreCompileInputs.cache
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/obj/Debug/netcoreapp2.1/TestChallenge.AssemblyInfoInputs.cache
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/obj/Debug/netcoreapp2.1/TestChallenge.AssemblyInfo.cs
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/obj/Debug/netcoreapp2.1/TestChallenge.dll
+/Users/ulysesrico/Projects/CodingChallengeInsight/TestChallenge/obj/Debug/netcoreapp2.1/TestChallenge.pdb
