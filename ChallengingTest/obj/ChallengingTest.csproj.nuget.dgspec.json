@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/ChallengingTest.csproj": {}
+    "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/ChallengingTest.csproj": {}
   },
   "projects": {
-    "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/ChallengingTest.csproj": {
+    "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/ChallengingTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/ChallengingTest.csproj",
+        "projectUniqueName": "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/ChallengingTest.csproj",
         "projectName": "ChallengingTest",
-        "projectPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/ChallengingTest.csproj",
+        "projectPath": "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/ChallengingTest.csproj",
         "packagesPath": "/Users/ulysesrico/.nuget/packages/",
-        "outputPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/obj/",
+        "outputPath": "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj": {
-                "projectPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj"
+              "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj": {
+                "projectPath": "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj": {
+    "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj",
+        "projectUniqueName": "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj",
         "projectName": "CodingChallengeInsight",
-        "projectPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj",
+        "projectPath": "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj",
         "packagesPath": "/Users/ulysesrico/.nuget/packages/",
-        "outputPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/obj/",
+        "outputPath": "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -7,6 +7,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\" />
     <Folder Include="Business\" />
+    <Folder Include="File\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,4 +19,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="File\ProductXML" />
+  </ItemGroup>
 </Project>

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Xml;
 
 namespace CodingChallengeInsight.Business
 {
@@ -120,6 +122,35 @@ namespace CodingChallengeInsight.Business
             }
 
             return total;
+        }
+
+        public string readXML_A()
+        {
+            try
+            {
+                XmlDocument xmldoc = new XmlDocument();
+                XmlNodeList xmlNode;
+                FileStream fs = new FileStream("File/XmlProduct.xml", FileMode.Open, FileAccess.Read);
+                xmldoc.Load(fs);
+                xmlNode = xmldoc.GetElementsByTagName("Product");
+                String str = "";
+                for (int i = 0; i <= xmlNode.Count - 1; i++)
+                {
+                    
+                    str +="|"+ xmlNode[i].ChildNodes.Item(0).InnerText.Trim() + "," +
+                          xmlNode[i].ChildNodes.Item(1).InnerText.Trim() + " ," +
+                          xmlNode[i].ChildNodes.Item(2).InnerText.Trim();
+
+                }
+
+                return str;
+            }
+            catch (Exception e)
+            {
+                return "ERROR: "+e.ToString();
+            }
+
+            
         }
     }
 }

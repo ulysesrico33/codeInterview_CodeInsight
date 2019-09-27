@@ -32,10 +32,10 @@ namespace CodingChallengeInsight.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet("readXML_A")]
+        public String GetXML_A()
         {
-            return "value";
+            return _challenge.readXML_A();
         }
 
         // POST api/values

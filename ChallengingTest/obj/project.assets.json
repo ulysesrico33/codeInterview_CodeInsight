@@ -5902,11 +5902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/ChallengingTest.csproj",
+      "projectUniqueName": "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/ChallengingTest.csproj",
       "projectName": "ChallengingTest",
-      "projectPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/ChallengingTest.csproj",
+      "projectPath": "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/ChallengingTest.csproj",
       "packagesPath": "/Users/ulysesrico/.nuget/packages/",
-      "outputPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/ChallengingTest/obj/",
+      "outputPath": "/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5923,8 +5923,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj": {
-              "projectPath": "/Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj"
+            "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj": {
+              "projectPath": "/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/CodingChallengeInsight.csproj"
             }
           }
         }

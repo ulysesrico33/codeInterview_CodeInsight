@@ -12,3 +12,17 @@
 /Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.RazorTargetAssemblyInfo.cache
 /Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.dll
 /Users/ulysesrico/Projects/CodingChallengeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.pdb
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/bin/Debug/netcoreapp2.1/CodingChallengeInsight.deps.json
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/bin/Debug/netcoreapp2.1/CodingChallengeInsight.runtimeconfig.json
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/bin/Debug/netcoreapp2.1/CodingChallengeInsight.runtimeconfig.dev.json
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/bin/Debug/netcoreapp2.1/CodingChallengeInsight.dll
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/bin/Debug/netcoreapp2.1/CodingChallengeInsight.pdb
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.csprojAssemblyReference.cache
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.csproj.CoreCompileInputs.cache
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.RazorAssemblyInfo.cache
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.RazorAssemblyInfo.cs
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.AssemblyInfoInputs.cache
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.AssemblyInfo.cs
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.RazorTargetAssemblyInfo.cache
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.dll
+/Users/ulysesrico/Projects/challengeCodeInsight/CodingChallengeInsight/obj/Debug/netcoreapp2.1/CodingChallengeInsight.pdb
