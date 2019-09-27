@@ -13,6 +13,9 @@ namespace CodingChallengeInsight.Business
         }
 
 
+        private XmlDocument xmldoc = new XmlDocument();
+        private const String strXmlPath= "File/XmlProduct.xml";
+
         /// <summary>
         /// getScore: Get the scores of the groups from the given input
         /// </summary>
@@ -124,13 +127,18 @@ namespace CodingChallengeInsight.Business
             return total;
         }
 
-        public string readXML_A()
+
+        /// <summary>
+        /// Read an XML file by iteration with a for(x...)
+        /// </summary>
+        /// <returns></returns>
+        public string readXML_IterateEachNode()
         {
             try
             {
-                XmlDocument xmldoc = new XmlDocument();
+                
                 XmlNodeList xmlNode;
-                FileStream fs = new FileStream("File/XmlProduct.xml", FileMode.Open, FileAccess.Read);
+                FileStream fs = new FileStream(strXmlPath, FileMode.Open, FileAccess.Read);
                 xmldoc.Load(fs);
                 xmlNode = xmldoc.GetElementsByTagName("Product");
                 String str = "";
@@ -151,6 +159,27 @@ namespace CodingChallengeInsight.Business
             }
 
             
+        }
+
+        /// <summary>
+        /// Read an XML by Using XMLDocument and PathXML
+        /// </summary>
+        /// <returns></returns>
+        public String readXML_UsingPathXML()
+        {
+            
+            xmldoc.Load(strXmlPath);
+            XmlNodeList nodeList = xmldoc.DocumentElement.SelectNodes("/Table/Product");
+            string proID = "", proName = "", price = "",str="";
+            foreach (XmlNode node in nodeList)
+            {
+                proID = node.SelectSingleNode("Product_id").InnerText;
+                proName = node.SelectSingleNode("Product_name").InnerText;
+                price = node.SelectSingleNode("Product_price").InnerText;
+                str = str + "\n"+proID + " " + proName + " " + price;
+            }
+
+            return str;
         }
     }
 }

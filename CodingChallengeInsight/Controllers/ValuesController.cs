@@ -32,10 +32,16 @@ namespace CodingChallengeInsight.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("readXML_A")]
-        public String GetXML_A()
+        [HttpGet("readXML/{option}")]
+        public String GetXML_A(int option)
         {
-            return _challenge.readXML_A();
+            String res;
+            if (option == 1)
+                res = _challenge.readXML_IterateEachNode();
+            else
+                res = _challenge.readXML_UsingPathXML();
+
+            return res;
         }
 
         // POST api/values
