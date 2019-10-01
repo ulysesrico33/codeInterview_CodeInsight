@@ -1,32 +1,31 @@
 ﻿<Properties StartupConfiguration="{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CodingChallengeInsight/Business/Challenge.cs">
     <Files>
-      <File FileName="CodingChallengeInsight/Business/Challenge.cs" Line="179" Column="32" />
-      <File FileName="CodingChallengeInsight/Controllers/ValuesController.cs" Line="42" Column="57" />
+      <File FileName="CodingChallengeInsight/Business/Challenge.cs" Line="200" Column="23" />
+      <File FileName="CodingChallengeInsight/File/XmlProduct.xml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CodingChallengeInsight" expanded="True" selected="True">
+          <Node name="CodingChallengeInsight" expanded="True">
             <Node name="ChallengingTest" expanded="True">
               <Node name="Dependencies" expanded="True" />
             </Node>
             <Node name="CodingChallengeInsight" expanded="True">
-              <Node name="Business" expanded="True" />
+              <Node name="Business" expanded="True">
+                <Node name="Challenge.cs" selected="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="File" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="CodingChallengeInsight" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../CodingChallengeInsight/Business/Challenge.cs" line="194" offsetX="-1" offsetY="-1" expression="XElement" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.ItemProperties.CodingChallengeInsight PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

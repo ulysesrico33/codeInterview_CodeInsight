@@ -38,8 +38,10 @@ namespace CodingChallengeInsight.Controllers
             String res;
             if (option == 1)
                 res = _challenge.readXML_IterateEachNode();
-            else
+            else if(option==2)
                 res = _challenge.readXML_UsingPathXML();
+            else
+                res = _challenge.readLINQ();
 
             return res;
         }

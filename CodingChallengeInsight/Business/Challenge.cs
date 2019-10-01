@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace CodingChallengeInsight.Business
 {
@@ -180,6 +181,29 @@ namespace CodingChallengeInsight.Business
             }
 
             return str;
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public String readLINQ()
+        {
+            String str = "";
+
+            XDocument xdocument = XDocument.Load(strXmlPath);
+
+            var result = xdocument.Element("Table").Descendants();
+            
+            foreach (var item in result)
+                str += "\n"+item.Value;
+           
+            
+         
+
+            return str;
+
         }
     }
 }
