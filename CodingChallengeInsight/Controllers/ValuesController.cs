@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using CodingChallengeInsight.Business;
 using Microsoft.AspNetCore.Mvc;
 
@@ -36,32 +37,22 @@ namespace CodingChallengeInsight.Controllers
         public String GetXML_A(int option)
         {
             String res;
+            
+            List<String> lst= new List<String>();
             if (option == 1)
                 res = _challenge.readXML_IterateEachNode();
             else if(option==2)
                 res = _challenge.readXML_UsingPathXML();
             else
                 res = _challenge.readLINQ();
-
+            
             return res;
         }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        
+        
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        
+        
     }
 }

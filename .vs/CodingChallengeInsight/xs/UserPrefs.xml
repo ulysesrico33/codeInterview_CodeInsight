@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodingChallengeInsight/Business/Challenge.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodingChallengeInsight/Controllers/ValuesController.cs">
     <Files>
-      <File FileName="CodingChallengeInsight/Business/Challenge.cs" Line="200" Column="23" />
-      <File FileName="CodingChallengeInsight/File/XmlProduct.xml" Line="1" Column="1" />
+      <File FileName="CodingChallengeInsight/Business/Challenge.cs" Line="211" Column="21" />
+      <File FileName="CodingChallengeInsight/Controllers/ValuesController.cs" Line="42" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,10 +12,10 @@
               <Node name="Dependencies" expanded="True" />
             </Node>
             <Node name="CodingChallengeInsight" expanded="True">
-              <Node name="Business" expanded="True">
-                <Node name="Challenge.cs" selected="True" />
+              <Node name="Business" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ValuesController.cs" selected="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
               <Node name="File" expanded="True" />
             </Node>
           </Node>

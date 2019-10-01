@@ -185,25 +185,43 @@ namespace CodingChallengeInsight.Business
 
 
         /// <summary>
-        /// 
+        /// Read with LINQ
         /// </summary>
         /// <returns></returns>
         public String readLINQ()
         {
-            String str = "";
-
+            List<String> lstProducts=new List<string>();
             XDocument xdocument = XDocument.Load(strXmlPath);
-
-            var result = xdocument.Element("Table").Descendants();
-            
-            foreach (var item in result)
-                str += "\n"+item.Value;
+            var result = xdocument.Element("Table").Descendants("Product");
            
             
-         
+            foreach (XElement item in result)
+            {
+                lstProducts.Add(item.Element("Name").Value+"_"+item.Element("Cost").Value);
+            }
 
-            return str;
+            return ConvierteATexto(lstProducts);
 
+        }
+
+
+        /// <summary>
+        /// ConvierteATexto: Toma una lista tipo String y devuelve una variable tipo
+        /// String
+        /// </summary>
+        /// <param name="lst"></param>
+        /// <returns></returns>
+        private String ConvierteATexto(List<String> lst)
+        {
+            
+            String res = "";
+            foreach (var item in lst)
+            {
+                res += "\n" + item;
+
+            }
+
+            return res;
         }
     }
 }
