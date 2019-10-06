@@ -52,12 +52,27 @@ namespace CodingChallengeInsight.Controllers
         [HttpGet("solve27/{input}")]
         public String solveProblem27(String input)
         {
+            /*
+             * PROBLEM
+             * 
+            Given a string of round, curly, and square open and closing brackets,
+            return whether the brackets are balanced(well-formed).
+
+            For example, given the string "([])[]({})", you should return true.
+            Given the string "([)]" or "((()", you should return false.
+            */
 
             String res = "";
             try
             {
-                bool closeRoundBracklet =true, closeSquareBracklet=true, closeBrace = true;
-                int countRoundBracklet=0, countSquareBracklet=0, countBrace = 0;
+                /*States for symbols:
+                 * 0:Not read yet
+                 * 1:Open
+                 * 2:Closed
+                 * */
+
+                int RoundBracklet = 0, SquareBracklet = 0, Brace = 0;
+                   
 
                 char[] charInput = input.ToCharArray();
 
@@ -67,41 +82,62 @@ namespace CodingChallengeInsight.Controllers
                     {
                         case '(':
 
-                            closeRoundBracklet = false;
+                            RoundBracklet = 1;
                             break;
                         case '[':
 
-                            closeSquareBracklet = false;
+                            SquareBracklet = 1;
                             break;
                         case '{':
 
-                            closeBrace = false;
+                            Brace = 1;
                             break;
 
+                         //Start closing cases
                         case ')':
-                             if (!closeRoundBracklet)
+                            if (charInput[i - 1] == '(')
+                            {
+                                RoundBracklet = 2;
+
+                            }
+                            else if (RoundBracklet==1)
                                {
-                                  closeRoundBracklet = true;
-                                  countRoundBracklet++;
+
+                                if (Brace==2||SquareBracklet==2)
+                                    RoundBracklet = 2;
+                                
 
                                 }
                               break;
                           
                         case ']':
 
-                            if (!closeSquareBracklet)
+                            if (charInput[i - 1] == '[')
                             {
-                                closeSquareBracklet = true;
-                                countSquareBracklet++;
+                                SquareBracklet = 2;
+                                
+
+                            }else if(SquareBracklet==1)
+                            {
+                                if (RoundBracklet==2||Brace==2)
+                                    SquareBracklet = 2;
 
                             }
+
                             break;
                         case '}':
-                            if (!closeBrace)
-                            {
-                                closeBrace = true;
-                                countBrace++;
 
+                            if (charInput[i - 1] == '{')
+                            {
+                                Brace = 2;
+                                
+
+                            }
+                            else if (Brace==1)
+                            {
+                                if (RoundBracklet==2||SquareBracklet==2)
+                                    Brace = 2;
+                                    
                             }
                             break;
 
@@ -109,13 +145,11 @@ namespace CodingChallengeInsight.Controllers
 
                 }
 
-                if (closeRoundBracklet && closeSquareBracklet && closeBrace)
-                    res = "true";
+
+                if (RoundBracklet == 2 || SquareBracklet == 2 || Brace == 2)
+                    res = "TRUE";
                 else
-                    res = "false";
-
-
-
+                    res = "FALSE";
 
             }
             catch(Exception e)
