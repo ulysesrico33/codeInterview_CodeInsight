@@ -49,6 +49,85 @@ namespace CodingChallengeInsight.Controllers
             return res;
         }
 
+        [HttpGet("solve27/{input}")]
+        public String solveProblem27(String input)
+        {
+
+            String res = "";
+            try
+            {
+                bool closeRoundBracklet =true, closeSquareBracklet=true, closeBrace = true;
+                int countRoundBracklet=0, countSquareBracklet=0, countBrace = 0;
+
+                char[] charInput = input.ToCharArray();
+
+                for (int i=0;i<= charInput.Length-1;i++)
+                {
+                    switch (charInput[i])
+                    {
+                        case '(':
+
+                            closeRoundBracklet = false;
+                            break;
+                        case '[':
+
+                            closeSquareBracklet = false;
+                            break;
+                        case '{':
+
+                            closeBrace = false;
+                            break;
+
+                        case ')':
+                             if (!closeRoundBracklet)
+                               {
+                                  closeRoundBracklet = true;
+                                  countRoundBracklet++;
+
+                                }
+                              break;
+                          
+                        case ']':
+
+                            if (!closeSquareBracklet)
+                            {
+                                closeSquareBracklet = true;
+                                countSquareBracklet++;
+
+                            }
+                            break;
+                        case '}':
+                            if (!closeBrace)
+                            {
+                                closeBrace = true;
+                                countBrace++;
+
+                            }
+                            break;
+
+                    }
+
+                }
+
+                if (closeRoundBracklet && closeSquareBracklet && closeBrace)
+                    res = "true";
+                else
+                    res = "false";
+
+
+
+
+            }
+            catch(Exception e)
+            {
+
+                res="This failed: " + e.ToString();
+            }
+
+            return res;
+
+        }
+
         
         
 

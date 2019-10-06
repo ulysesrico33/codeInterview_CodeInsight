@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{AA3FE208-D6F5-4FD1-A86F-CD45827A155D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CodingChallengeInsight/Controllers/ValuesController.cs">
     <Files>
-      <File FileName="CodingChallengeInsight/Business/Challenge.cs" Line="211" Column="21" />
-      <File FileName="CodingChallengeInsight/Controllers/ValuesController.cs" Line="42" Column="29" />
+      <File FileName="CodingChallengeInsight/Business/Challenge.cs" Line="1" Column="1" />
+      <File FileName="CodingChallengeInsight/Controllers/ValuesController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +26,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../../CodingChallengeInsight/Business/Challenge.cs" line="194" offsetX="-1" offsetY="-1" expression="XElement" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.CodingChallengeInsight PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CodingChallengeInsight PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

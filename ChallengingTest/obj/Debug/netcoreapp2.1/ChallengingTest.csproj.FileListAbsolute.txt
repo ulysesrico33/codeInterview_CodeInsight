@@ -28,9 +28,11 @@
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/bin/Debug/netcoreapp2.1/CodingChallengeInsight.dll
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/bin/Debug/netcoreapp2.1/CodingChallengeInsight.pdb
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/Debug/netcoreapp2.1/ChallengingTest.csprojAssemblyReference.cache
-/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/Debug/netcoreapp2.1/ChallengingTest.csproj.CoreCompileInputs.cache
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/Debug/netcoreapp2.1/ChallengingTest.AssemblyInfoInputs.cache
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/Debug/netcoreapp2.1/ChallengingTest.AssemblyInfo.cs
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/Debug/netcoreapp2.1/ChallengingTest.csproj.CopyComplete
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/Debug/netcoreapp2.1/ChallengingTest.dll
 /Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/obj/Debug/netcoreapp2.1/ChallengingTest.pdb
+/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/ulysesrico/Projects/challengeCodeInsight/ChallengingTest/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
