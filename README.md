@@ -8,3 +8,7 @@ Ohh, today I see I can add mermaid diagrams in Git hub ... hice!!
   graph TD;
       A(Yupii) -- Yeah!!! --> B(A mermaid diagram)
 ```
+
+# References
+
+- [Include mermaid diagrams in github](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/)
